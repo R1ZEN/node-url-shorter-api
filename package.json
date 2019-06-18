@@ -1,12 +1,12 @@
 {
   "name": "node-short-url",
   "version": "1.0.0",
-  "description": "",
+  "description": "Make URL shorter",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["node"],
+  "author": "Pavel Bely",
   "license": "ISC"
 }
