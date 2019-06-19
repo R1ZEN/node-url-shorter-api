@@ -6,7 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["node"],
+  "keywords": [
+    "node"
+  ],
   "author": "Pavel Bely",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "qr-image": "^3.2.0"
+  }
 }
