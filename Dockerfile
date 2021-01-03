@@ -1,20 +1,15 @@
 FROM ubuntu:18.04
 
-
-RUN apt-get update
-
-RUN apt-get install -y npm nodejs memcached
+ENV NODE_ENV=production
 
 WORKDIR /usr/src/app
 
-COPY . .
+RUN apt-get update && apt-get install -y npm nodejs memcached
 
-ENV NODE_ENV=production
+COPY . .
 
 RUN npm i
 
 EXPOSE 3000
 
 CMD [ "npm", "run", "start" ]
-
-
